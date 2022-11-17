@@ -14,3 +14,34 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    padding: 3em 2em;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.logo{
+    max-width: 3em;
+}
+label{
+    flex-grow: 1;
+    width: 100%;
+}
+header form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 20px 0;
+}
+form > *{
+    padding: 15px;
+    padding-left: 2em;
+    border-radius: 5px;
+    border: #757373 solid 1px;
+}
