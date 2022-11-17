@@ -1,0 +1,16 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* FONTS */
+
+/* COLORS */
+:root{
+    --black: #000000;
+    --silver-sand: #C4C4C4;
+}
+/* COLORS END */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
