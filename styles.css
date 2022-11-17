@@ -17,6 +17,7 @@
 
 body{
     padding: 3em 2em;
+    min-height: 100vh;
 }
 
 /* HEADER */
@@ -57,3 +58,66 @@ form a{
     border-radius: 5px;
     background: #06042b ;
 }
+/* HEADER END */
+
+/* HZL */
+.hzl{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.hzl p{
+    color: #757373;
+}
+hr{
+    width: 50%;
+    height: 1px;
+    color: #757373;
+    opacity: 0.7;
+}
+/* HZL END */
+
+/* LOGINS */
+.logins{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    gap: 2em;
+}
+.logins > *{
+    border-radius: 5px;
+    border: #757373 solid 1px;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.media{
+    max-width:2em;
+    margin-right: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* LOGINS END */
+
+/* FOOTER */
+footer{
+    margin-top: 2em;
+}
+footer a{
+    display: inline;
+        /* THIS UPPPP */
+    color: #000;
+    font-weight: bold;
+
+}
+/* FOOTER END */
+
+
+/* ------RESPONSIVE AREA------ */
