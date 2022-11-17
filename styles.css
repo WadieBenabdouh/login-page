@@ -121,3 +121,27 @@ footer a{
 
 
 /* ------RESPONSIVE AREA------ */
+@media screen and (max-width:1440px){
+    /* HEADER */
+    label{
+        width: 30%;
+    }
+    /* HEADER END */
+    
+    /* HZL */
+    .hzl{
+        margin: 0 auto;
+        width: 30%;
+    }
+    hr{
+        width: 30%;
+    }
+    /* HZL END */
+
+    /* LOGINS */
+    .logins > *{
+        margin: 0 auto;
+        width: 30%;
+    }
+    /* LOGINS END */
+}
